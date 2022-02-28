@@ -1,0 +1,3902 @@
+@font-face {
+  font-family: 'jcicon';
+  src:  url('fonts/jcicon.eot?ht8g2e');
+  src:  url('fonts/jcicon.eot?ht8g2e#iefix') format('embedded-opentype'),
+    url('fonts/jcicon.ttf?ht8g2e') format('truetype'),
+    url('fonts/jcicon.woff?ht8g2e') format('woff'),
+    url('fonts/jcicon.svg?ht8g2e#jcicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="jcicon-"], [class*=" jcicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jcicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jcicon-time:before {
+  content: "\ec9d";
+}
+.jcicon-daytime:before {
+  content: "\ec9e";
+}
+.jcicon-calendar:before {
+  content: "\ec9c";
+}
+.jcicon-alert:before {
+  content: "\e900";
+}
+.jcicon-alipay:before {
+  content: "\e901";
+}
+.jcicon-artificial:before {
+  content: "\e902";
+}
+.jcicon-audio:before {
+  content: "\e903";
+}
+.jcicon-baidu .path1:before {
+  content: "\e904";
+  color: rgb(0, 0, 0);
+}
+.jcicon-baidu .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-baidu .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-ban:before {
+  content: "\e907";
+}
+.jcicon-barcode:before {
+  content: "\e908";
+}
+.jcicon-bluetooth:before {
+  content: "\e909";
+}
+.jcicon-brash:before {
+  content: "\e90a";
+}
+.jcicon-bubble:before {
+  content: "\e90b";
+}
+.jcicon-bug1:before {
+  content: "\e90c";
+}
+.jcicon-cart-empty:before {
+  content: "\e90d";
+}
+.jcicon-cart-full:before {
+  content: "\e90e";
+}
+.jcicon-certificate:before {
+  content: "\e90f";
+}
+.jcicon-chart-bar:before {
+  content: "\e910";
+}
+.jcicon-chart-pie:before {
+  content: "\e911";
+}
+.jcicon-check:before {
+  content: "\e912";
+}
+.jcicon-chrome .path1:before {
+  content: "\e913";
+  color: rgb(234, 67, 53);
+}
+.jcicon-chrome .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(66, 133, 244);
+}
+.jcicon-chrome .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(52, 168, 83);
+}
+.jcicon-chrome .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(251, 188, 5);
+}
+.jcicon-classify:before {
+  content: "\e917";
+}
+.jcicon-clock:before {
+  content: "\e918";
+}
+.jcicon-code:before {
+  content: "\e919";
+}
+.jcicon-colorMode:before {
+  content: "\e91a";
+}
+.jcicon-compass:before {
+  content: "\e91b";
+}
+.jcicon-concerned:before {
+  content: "\e91c";
+}
+.jcicon-console:before {
+  content: "\e91d";
+}
+.jcicon-csharp:before {
+  content: "\e91e";
+}
+.jcicon-dart:before {
+  content: "\e91f";
+}
+.jcicon-dart-color .path1:before {
+  content: "\e920";
+  color: rgb(102, 195, 250);
+}
+.jcicon-dart-color .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(33, 88, 150);
+}
+.jcicon-dart-color .path3:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(35, 89, 151);
+}
+.jcicon-dart-color .path4:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(88, 182, 240);
+}
+.jcicon-database:before {
+  content: "\e924";
+}
+.jcicon-database-fill:before {
+  content: "\e925";
+}
+.jcicon-douyin:before {
+  content: "\e926";
+}
+.jcicon-down:before {
+  content: "\e927";
+}
+.jcicon-down-arrow:before {
+  content: "\e928";
+}
+.jcicon-down-bold:before {
+  content: "\e929";
+}
+.jcicon-down-filling:before {
+  content: "\e92a";
+}
+.jcicon-download:before {
+  content: "\e92b";
+}
+.jcicon-email:before {
+  content: "\e92c";
+}
+.jcicon-excel:before {
+  content: "\e92d";
+}
+.jcicon-exchange:before {
+  content: "\e92e";
+}
+.jcicon-eye-off:before {
+  content: "\e92f";
+}
+.jcicon-eye-open:before {
+  content: "\e930";
+}
+.jcicon-FAO:before {
+  content: "\e931";
+}
+.jcicon-file:before {
+  content: "\e932";
+}
+.jcicon-firefox:before {
+  content: "\e933";
+}
+.jcicon-folder-close:before {
+  content: "\e934";
+}
+.jcicon-folder-open:before {
+  content: "\e935";
+}
+.jcicon-footmark:before {
+  content: "\e936";
+}
+.jcicon-fullscreen-expand:before {
+  content: "\e937";
+}
+.jcicon-fullscreen-shrink:before {
+  content: "\e938";
+}
+.jcicon-game:before {
+  content: "\e939";
+}
+.jcicon-gift:before {
+  content: "\e93a";
+}
+.jcicon-github1:before {
+  content: "\e93b";
+}
+.jcicon-google:before {
+  content: "\e93c";
+}
+.jcicon-google-color .path1:before {
+  content: "\e93d";
+  color: rgb(251, 188, 5);
+}
+.jcicon-google-color .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(234, 67, 53);
+}
+.jcicon-google-color .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(52, 168, 83);
+}
+.jcicon-google-color .path4:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(66, 133, 244);
+}
+.jcicon-government:before {
+  content: "\e941";
+}
+.jcicon-hint:before {
+  content: "\e942";
+}
+.jcicon-home:before {
+  content: "\e943";
+}
+.jcicon-host:before {
+  content: "\e944";
+}
+.jcicon-html5:before {
+  content: "\e945";
+}
+.jcicon-import:before {
+  content: "\e946";
+}
+.jcicon-information:before {
+  content: "\e947";
+}
+.jcicon-internet:before {
+  content: "\e948";
+}
+.jcicon-java:before {
+  content: "\e949";
+}
+.jcicon-java-color .path1:before {
+  content: "\e94a";
+  color: rgb(255, 0, 0);
+}
+.jcicon-java-color .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 0, 0);
+}
+.jcicon-java-color .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(102, 153, 255);
+}
+.jcicon-java-color .path4:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(102, 153, 255);
+}
+.jcicon-java-color .path5:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(102, 153, 255);
+}
+.jcicon-js:before {
+  content: "\e94f";
+}
+.jcicon-json:before {
+  content: "\e950";
+}
+.jcicon-julia-color .path1:before {
+  content: "\e951";
+  color: rgb(188, 52, 45);
+}
+.jcicon-julia-color .path2:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(134, 78, 159);
+}
+.jcicon-julia-color .path3:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(50, 138, 34);
+}
+.jcicon-keyboard:before {
+  content: "\e954";
+}
+.jcicon-lab1:before {
+  content: "\e955";
+}
+.jcicon-language .path1:before {
+  content: "\e956";
+  color: rgb(255, 255, 255);
+}
+.jcicon-language .path2:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-left:before {
+  content: "\e958";
+}
+.jcicon-left-arrow:before {
+  content: "\e959";
+}
+.jcicon-left-bold:before {
+  content: "\e95a";
+}
+.jcicon-left-filling:before {
+  content: "\e95b";
+}
+.jcicon-link:before {
+  content: "\e95c";
+}
+.jcicon-linux:before {
+  content: "\e95d";
+}
+.jcicon-location:before {
+  content: "\e95e";
+}
+.jcicon-lock:before {
+  content: "\e95f";
+}
+.jcicon-man:before {
+  content: "\e960";
+}
+.jcicon-mark:before {
+  content: "\e961";
+}
+.jcicon-markdown:before {
+  content: "\e962";
+}
+.jcicon-merge:before {
+  content: "\e963";
+}
+.jcicon-moments:before {
+  content: "\e964";
+}
+.jcicon-monitor:before {
+  content: "\e965";
+}
+.jcicon-moon:before {
+  content: "\e966";
+}
+.jcicon-more:before {
+  content: "\e967";
+}
+.jcicon-move-down:before {
+  content: "\e968";
+}
+.jcicon-move-left:before {
+  content: "\e969";
+}
+.jcicon-move-right:before {
+  content: "\e96a";
+}
+.jcicon-move-up:before {
+  content: "\e96b";
+}
+.jcicon-music1:before {
+  content: "\e96c";
+}
+.jcicon-mysql:before {
+  content: "\e96d";
+}
+.jcicon-national-flag-AE .path1:before {
+  content: "\e96e";
+  color: rgb(0, 115, 47);
+}
+.jcicon-national-flag-AE .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AE .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-AE .path4:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(255, 0, 0);
+}
+.jcicon-national-flag-AM .path1:before {
+  content: "\e972";
+  color: rgb(255, 0, 0);
+}
+.jcicon-national-flag-AM .path2:before {
+  content: "\e973";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 255);
+}
+.jcicon-national-flag-AM .path3:before {
+  content: "\e974";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 165, 0);
+}
+.jcicon-national-flag-AO .path1:before {
+  content: "\e975";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-AO .path2:before {
+  content: "\e976";
+  margin-left: -1.5078125em;
+  color: rgb(204, 48, 60);
+}
+.jcicon-national-flag-AO .path3:before {
+  content: "\e977";
+  margin-left: -1.5078125em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-AO .path4:before {
+  content: "\e978";
+  margin-left: -1.5078125em;
+  color: rgb(247, 214, 0);
+}
+.jcicon-national-flag-AO .path5:before {
+  content: "\e979";
+  margin-left: -1.5078125em;
+  color: rgb(247, 214, 0);
+}
+.jcicon-national-flag-AO .path6:before {
+  content: "\e97a";
+  margin-left: -1.5078125em;
+  color: rgb(247, 214, 0);
+}
+.jcicon-national-flag-AO .path7:before {
+  content: "\e97b";
+  margin-left: -1.5078125em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-AR .path1:before {
+  content: "\e97c";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-AR .path2:before {
+  content: "\e97d";
+  margin-left: -1.509765625em;
+  color: rgb(117, 179, 224);
+}
+.jcicon-national-flag-AR .path3:before {
+  content: "\e97e";
+  margin-left: -1.509765625em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AR .path4:before {
+  content: "\e97f";
+  margin-left: -1.509765625em;
+  color: rgb(117, 179, 224);
+}
+.jcicon-national-flag-AR .path5:before {
+  content: "\e980";
+  margin-left: -1.509765625em;
+  color: rgb(152, 85, 36);
+}
+.jcicon-national-flag-AR .path6:before {
+  content: "\e981";
+  margin-left: -1.509765625em;
+  color: rgb(246, 202, 95);
+}
+.jcicon-national-flag-AR .path7:before {
+  content: "\e982";
+  margin-left: -1.509765625em;
+  color: rgb(246, 202, 95);
+}
+.jcicon-national-flag-AR .path8:before {
+  content: "\e983";
+  margin-left: -1.509765625em;
+  color: rgb(246, 202, 95);
+}
+.jcicon-national-flag-AR .path9:before {
+  content: "\e984";
+  margin-left: -1.509765625em;
+  color: rgb(152, 85, 36);
+}
+.jcicon-national-flag-AU .path1:before {
+  content: "\e985";
+  color: rgb(0, 34, 125);
+}
+.jcicon-national-flag-AU .path2:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AU .path3:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 35, 122);
+}
+.jcicon-national-flag-AU .path4:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AU .path5:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AU .path6:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AU .path7:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(207, 20, 43);
+}
+.jcicon-national-flag-AU .path8:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(207, 20, 43);
+}
+.jcicon-national-flag-AZ .path1:before {
+  content: "\e98d";
+  color: rgb(63, 156, 53);
+}
+.jcicon-national-flag-AZ .path2:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(237, 41, 57);
+}
+.jcicon-national-flag-AZ .path3:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(0, 185, 228);
+}
+.jcicon-national-flag-AZ .path4:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-AZ .path5:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(237, 41, 57);
+}
+.jcicon-national-flag-AZ .path6:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BB .path1:before {
+  content: "\e993";
+  color: rgb(0, 38, 127);
+}
+.jcicon-national-flag-BB .path2:before {
+  content: "\e994";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 199, 38);
+}
+.jcicon-national-flag-BB .path3:before {
+  content: "\e995";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BB .path4:before {
+  content: "\e996";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BD .path1:before {
+  content: "\e997";
+  color: rgb(0, 106, 78);
+}
+.jcicon-national-flag-BD .path2:before {
+  content: "\e998";
+  margin-left: -1.3330078125em;
+  color: rgb(244, 42, 65);
+}
+.jcicon-national-flag-BE .path1:before {
+  content: "\e999";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-BE .path2:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-BE .path3:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(251, 220, 0);
+}
+.jcicon-national-flag-BE .path4:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(221, 42, 27);
+}
+.jcicon-national-flag-BG .path1:before {
+  content: "\e99d";
+  color: rgb(214, 38, 18);
+}
+.jcicon-national-flag-BG .path2:before {
+  content: "\e99e";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BG .path3:before {
+  content: "\e99f";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 150, 110);
+}
+.jcicon-national-flag-BH .path1:before {
+  content: "\e9a0";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BH .path2:before {
+  content: "\e9a1";
+  margin-left: -1.3330078125em;
+  color: rgb(206, 17, 38);
+}
+.jcicon-national-flag-BM .path1:before {
+  content: "\e9a2";
+  color: rgb(207, 20, 43);
+}
+.jcicon-national-flag-BM .path2:before {
+  content: "\e9a3";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 36, 125);
+}
+.jcicon-national-flag-BM .path3:before {
+  content: "\e9a4";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path4:before {
+  content: "\e9a5";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path5:before {
+  content: "\e9a6";
+  margin-left: -1.3330078125em;
+  color: rgb(207, 20, 43);
+}
+.jcicon-national-flag-BM .path6:before {
+  content: "\e9a7";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path7:before {
+  content: "\e9a8";
+  margin-left: -1.3330078125em;
+  color: rgb(47, 143, 34);
+}
+.jcicon-national-flag-BM .path8:before {
+  content: "\e9a9";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path9:before {
+  content: "\e9aa";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path10:before {
+  content: "\e9ab";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path11:before {
+  content: "\e9ac";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path12:before {
+  content: "\e9ad";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path13:before {
+  content: "\e9ae";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path14:before {
+  content: "\e9af";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path15:before {
+  content: "\e9b0";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path16:before {
+  content: "\e9b1";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path17:before {
+  content: "\e9b2";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path18:before {
+  content: "\e9b3";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path19:before {
+  content: "\e9b4";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path20:before {
+  content: "\e9b5";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path21:before {
+  content: "\e9b6";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path22:before {
+  content: "\e9b7";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path23:before {
+  content: "\e9b8";
+  margin-left: -1.3330078125em;
+  color: rgb(228, 203, 94);
+}
+.jcicon-national-flag-BM .path24:before {
+  content: "\e9b9";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path25:before {
+  content: "\e9ba";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path26:before {
+  content: "\e9bb";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path27:before {
+  content: "\e9bc";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path28:before {
+  content: "\e9bd";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path29:before {
+  content: "\e9be";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path30:before {
+  content: "\e9bf";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path31:before {
+  content: "\e9c0";
+  margin-left: -1.3330078125em;
+  color: rgb(212, 0, 0);
+}
+.jcicon-national-flag-BM .path32:before {
+  content: "\e9c1";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path33:before {
+  content: "\e9c2";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path34:before {
+  content: "\e9c3";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path35:before {
+  content: "\e9c4";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path36:before {
+  content: "\e9c5";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path37:before {
+  content: "\e9c6";
+  margin-left: -1.3330078125em;
+  color: rgb(245, 206, 0);
+}
+.jcicon-national-flag-BM .path38:before {
+  content: "\e9c7";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path39:before {
+  content: "\e9c8";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path40:before {
+  content: "\e9c9";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path41:before {
+  content: "\e9ca";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path42:before {
+  content: "\e9cb";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path43:before {
+  content: "\e9cc";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path44:before {
+  content: "\e9cd";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path45:before {
+  content: "\e9ce";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path46:before {
+  content: "\e9cf";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path47:before {
+  content: "\e9d0";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path48:before {
+  content: "\e9d1";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path49:before {
+  content: "\e9d2";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path50:before {
+  content: "\e9d3";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path51:before {
+  content: "\e9d4";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path52:before {
+  content: "\e9d5";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path53:before {
+  content: "\e9d6";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path54:before {
+  content: "\e9d7";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path55:before {
+  content: "\e9d8";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path56:before {
+  content: "\e9d9";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path57:before {
+  content: "\e9da";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path58:before {
+  content: "\e9db";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path59:before {
+  content: "\e9dc";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path60:before {
+  content: "\e9dd";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path61:before {
+  content: "\e9de";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path62:before {
+  content: "\e9df";
+  margin-left: -1.3330078125em;
+  color: rgb(100, 180, 209);
+}
+.jcicon-national-flag-BM .path63:before {
+  content: "\e9e0";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path64:before {
+  content: "\e9e1";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path65:before {
+  content: "\e9e2";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path66:before {
+  content: "\e9e3";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path67:before {
+  content: "\e9e4";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path68:before {
+  content: "\e9e5";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BM .path69:before {
+  content: "\e9e6";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BM .path70:before {
+  content: "\e9e7";
+  margin-left: -1.3330078125em;
+  color: rgb(120, 68, 33);
+}
+.jcicon-national-flag-BM .path71:before {
+  content: "\e9e8";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BN .path1:before {
+  content: "\e9e9";
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path2:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BN .path3:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BN .path4:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path5:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path6:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path7:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path8:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path9:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path10:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path11:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path12:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path13:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path14:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path15:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path16:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path17:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path18:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path19:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path20:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path21:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path22:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path23:before {
+  content: "\e9ff";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path24:before {
+  content: "\ea00";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path25:before {
+  content: "\ea01";
+  margin-left: -1em;
+  color: rgb(207, 17, 38);
+}
+.jcicon-national-flag-BN .path26:before {
+  content: "\ea02";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path27:before {
+  content: "\ea03";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path28:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path29:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path30:before {
+  content: "\ea06";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BN .path31:before {
+  content: "\ea07";
+  margin-left: -1em;
+  color: rgb(247, 224, 23);
+}
+.jcicon-national-flag-BO .path1:before {
+  content: "\ea08";
+  color: rgb(213, 43, 30);
+}
+.jcicon-national-flag-BO .path2:before {
+  content: "\ea09";
+  margin-left: -1.5263671875em;
+  color: rgb(0, 121, 52);
+}
+.jcicon-national-flag-BO .path3:before {
+  content: "\ea0a";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 224, 0);
+}
+.jcicon-national-flag-BO .path4:before {
+  content: "\ea0b";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path5:before {
+  content: "\ea0c";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path6:before {
+  content: "\ea0d";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path7:before {
+  content: "\ea0e";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path8:before {
+  content: "\ea0f";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path9:before {
+  content: "\ea10";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path10:before {
+  content: "\ea11";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path11:before {
+  content: "\ea12";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path12:before {
+  content: "\ea13";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path13:before {
+  content: "\ea14";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path14:before {
+  content: "\ea15";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path15:before {
+  content: "\ea16";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path16:before {
+  content: "\ea17";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path17:before {
+  content: "\ea18";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path18:before {
+  content: "\ea19";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path19:before {
+  content: "\ea1a";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path20:before {
+  content: "\ea1b";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path21:before {
+  content: "\ea1c";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path22:before {
+  content: "\ea1d";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path23:before {
+  content: "\ea1e";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path24:before {
+  content: "\ea1f";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path25:before {
+  content: "\ea20";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path26:before {
+  content: "\ea21";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path27:before {
+  content: "\ea22";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path28:before {
+  content: "\ea23";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path29:before {
+  content: "\ea24";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path30:before {
+  content: "\ea25";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 225, 90);
+}
+.jcicon-national-flag-BO .path31:before {
+  content: "\ea26";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path32:before {
+  content: "\ea27";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path33:before {
+  content: "\ea28";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path34:before {
+  content: "\ea29";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path35:before {
+  content: "\ea2a";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path36:before {
+  content: "\ea2b";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path37:before {
+  content: "\ea2c";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path38:before {
+  content: "\ea2d";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path39:before {
+  content: "\ea2e";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 75, 85);
+}
+.jcicon-national-flag-BO .path40:before {
+  content: "\ea2f";
+  margin-left: -1.5263671875em;
+  color: rgb(115, 175, 0);
+}
+.jcicon-national-flag-BO .path41:before {
+  content: "\ea30";
+  margin-left: -1.5263671875em;
+  color: rgb(60, 200, 255);
+}
+.jcicon-national-flag-BO .path42:before {
+  content: "\ea31";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path43:before {
+  content: "\ea32";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path44:before {
+  content: "\ea33";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BO .path45:before {
+  content: "\ea34";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path46:before {
+  content: "\ea35";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path47:before {
+  content: "\ea36";
+  margin-left: -1.5263671875em;
+  color: rgb(130, 85, 70);
+}
+.jcicon-national-flag-BO .path48:before {
+  content: "\ea37";
+  margin-left: -1.5263671875em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-BO .path49:before {
+  content: "\ea38";
+  margin-left: -1.5263671875em;
+  color: rgb(255, 190, 90);
+}
+.jcicon-national-flag-BR .path1:before {
+  content: "\ea39";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-BR .path2:before {
+  content: "\ea3a";
+  margin-left: -1.5048828125em;
+  color: rgb(0, 154, 76);
+}
+.jcicon-national-flag-BR .path3:before {
+  content: "\ea3b";
+  margin-left: -1.5048828125em;
+  color: rgb(245, 200, 0);
+}
+.jcicon-national-flag-BR .path4:before {
+  content: "\ea3c";
+  margin-left: -1.5048828125em;
+  color: rgb(56, 55, 130);
+}
+.jcicon-national-flag-BR .path5:before {
+  content: "\ea3d";
+  margin-left: -1.5048828125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BR .path6:before {
+  content: "\ea3e";
+  margin-left: -1.5048828125em;
+  color: rgb(0, 154, 76);
+}
+.jcicon-national-flag-BR .path7:before {
+  content: "\ea3f";
+  margin-left: -1.5048828125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BS .path1:before {
+  content: "\ea40";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-BS .path2:before {
+  content: "\ea41";
+  margin-left: -1.505859375em;
+  color: rgb(0, 164, 223);
+}
+.jcicon-national-flag-BS .path3:before {
+  content: "\ea42";
+  margin-left: -1.505859375em;
+  color: rgb(248, 223, 84);
+}
+.jcicon-national-flag-BS .path4:before {
+  content: "\ea43";
+  margin-left: -1.505859375em;
+  color: rgb(0, 164, 223);
+}
+.jcicon-national-flag-BS .path5:before {
+  content: "\ea44";
+  margin-left: -1.505859375em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-BT .path1:before {
+  content: "\ea45";
+  color: rgb(255, 213, 32);
+}
+.jcicon-national-flag-BT .path2:before {
+  content: "\ea46";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 78, 18);
+}
+.jcicon-national-flag-BT .path3:before {
+  content: "\ea47";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path4:before {
+  content: "\ea48";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path5:before {
+  content: "\ea49";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path6:before {
+  content: "\ea4a";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path7:before {
+  content: "\ea4b";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path8:before {
+  content: "\ea4c";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path9:before {
+  content: "\ea4d";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path10:before {
+  content: "\ea4e";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path11:before {
+  content: "\ea4f";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path12:before {
+  content: "\ea50";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path13:before {
+  content: "\ea51";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path14:before {
+  content: "\ea52";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path15:before {
+  content: "\ea53";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path16:before {
+  content: "\ea54";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path17:before {
+  content: "\ea55";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path18:before {
+  content: "\ea56";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path19:before {
+  content: "\ea57";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path20:before {
+  content: "\ea58";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path21:before {
+  content: "\ea59";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path22:before {
+  content: "\ea5a";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path23:before {
+  content: "\ea5b";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path24:before {
+  content: "\ea5c";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path25:before {
+  content: "\ea5d";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path26:before {
+  content: "\ea5e";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path27:before {
+  content: "\ea5f";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path28:before {
+  content: "\ea60";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path29:before {
+  content: "\ea61";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path30:before {
+  content: "\ea62";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path31:before {
+  content: "\ea63";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path32:before {
+  content: "\ea64";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path33:before {
+  content: "\ea65";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path34:before {
+  content: "\ea66";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path35:before {
+  content: "\ea67";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path36:before {
+  content: "\ea68";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path37:before {
+  content: "\ea69";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path38:before {
+  content: "\ea6a";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path39:before {
+  content: "\ea6b";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path40:before {
+  content: "\ea6c";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path41:before {
+  content: "\ea6d";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path42:before {
+  content: "\ea6e";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path43:before {
+  content: "\ea6f";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path44:before {
+  content: "\ea70";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path45:before {
+  content: "\ea71";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path46:before {
+  content: "\ea72";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path47:before {
+  content: "\ea73";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path48:before {
+  content: "\ea74";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path49:before {
+  content: "\ea75";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path50:before {
+  content: "\ea76";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path51:before {
+  content: "\ea77";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path52:before {
+  content: "\ea78";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path53:before {
+  content: "\ea79";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path54:before {
+  content: "\ea7a";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path55:before {
+  content: "\ea7b";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path56:before {
+  content: "\ea7c";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path57:before {
+  content: "\ea7d";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BT .path58:before {
+  content: "\ea7e";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-BT .path59:before {
+  content: "\ea7f";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path1:before {
+  content: "\ea80";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-BY .path2:before {
+  content: "\ea81";
+  margin-left: -1.51171875em;
+  color: rgb(0, 156, 66);
+}
+.jcicon-national-flag-BY .path3:before {
+  content: "\ea82";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 31);
+}
+.jcicon-national-flag-BY .path4:before {
+  content: "\ea83";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path5:before {
+  content: "\ea84";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path6:before {
+  content: "\ea85";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path7:before {
+  content: "\ea86";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path8:before {
+  content: "\ea87";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path9:before {
+  content: "\ea88";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path10:before {
+  content: "\ea89";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path11:before {
+  content: "\ea8a";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path12:before {
+  content: "\ea8b";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path13:before {
+  content: "\ea8c";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path14:before {
+  content: "\ea8d";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path15:before {
+  content: "\ea8e";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path16:before {
+  content: "\ea8f";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path17:before {
+  content: "\ea90";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path18:before {
+  content: "\ea91";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path19:before {
+  content: "\ea92";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path20:before {
+  content: "\ea93";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path21:before {
+  content: "\ea94";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path22:before {
+  content: "\ea95";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path23:before {
+  content: "\ea96";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path24:before {
+  content: "\ea97";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path25:before {
+  content: "\ea98";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path26:before {
+  content: "\ea99";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path27:before {
+  content: "\ea9a";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path28:before {
+  content: "\ea9b";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path29:before {
+  content: "\ea9c";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path30:before {
+  content: "\ea9d";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path31:before {
+  content: "\ea9e";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-BY .path32:before {
+  content: "\ea9f";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-BY .path33:before {
+  content: "\eaa0";
+  margin-left: -1.51171875em;
+  color: rgb(202, 39, 32);
+}
+.jcicon-national-flag-CA .path1:before {
+  content: "\eaa1";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-CA .path2:before {
+  content: "\eaa2";
+  margin-left: -1em;
+  color: rgb(213, 43, 30);
+}
+.jcicon-national-flag-CN .path1:before {
+  content: "\eaa3";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-CN .path2:before {
+  content: "\eaa4";
+  margin-left: -1em;
+  color: rgb(222, 41, 16);
+}
+.jcicon-national-flag-CN .path3:before {
+  content: "\eaa5";
+  margin-left: -1em;
+  color: rgb(251, 220, 0);
+}
+.jcicon-national-flag-CO .path1:before {
+  content: "\eaa6";
+  color: rgb(255, 232, 0);
+}
+.jcicon-national-flag-CO .path2:before {
+  content: "\eaa7";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 20, 142);
+}
+.jcicon-national-flag-CO .path3:before {
+  content: "\eaa8";
+  margin-left: -1.3330078125em;
+  color: rgb(218, 0, 16);
+}
+.jcicon-national-flag-CU .path1:before {
+  content: "\eaa9";
+  color: rgb(0, 80, 240);
+}
+.jcicon-national-flag-CU .path2:before {
+  content: "\eaaa";
+  margin-left: -1.599609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-CU .path3:before {
+  content: "\eaab";
+  margin-left: -1.599609375em;
+  color: rgb(237, 0, 0);
+}
+.jcicon-national-flag-CU .path4:before {
+  content: "\eaac";
+  margin-left: -1.599609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-CV .path1:before {
+  content: "\eaad";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-CV .path2:before {
+  content: "\eaae";
+  margin-left: -1.7763671875em;
+  color: rgb(8, 24, 115);
+}
+.jcicon-national-flag-CV .path3:before {
+  content: "\eaaf";
+  margin-left: -1.7763671875em;
+  color: rgb(222, 57, 41);
+}
+.jcicon-national-flag-CV .path4:before {
+  content: "\eab1";
+  margin-left: -1.7763671875em;
+  color: rgb(255, 206, 8);
+}
+.jcicon-national-flag-DE .path1:before {
+  content: "\eab2";
+  color: rgb(251, 218, 0);
+}
+.jcicon-national-flag-DE .path2:before {
+  content: "\eab3";
+  margin-left: -1em;
+  color: rgb(222, 58, 55);
+}
+.jcicon-national-flag-DE .path3:before {
+  content: "\eab4";
+  margin-left: -1em;
+  color: rgb(34, 23, 20);
+}
+.jcicon-national-flag-DK .path1:before {
+  content: "\eab5";
+  color: rgb(201, 12, 49);
+}
+.jcicon-national-flag-DK .path2:before {
+  content: "\eab6";
+  margin-left: -1.53125em;
+  color: rgb(245, 247, 250);
+}
+.jcicon-national-flag-EG .path1:before {
+  content: "\eab7";
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-EG .path2:before {
+  content: "\eab8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path3:before {
+  content: "\eab9";
+  margin-left: -1em;
+  color: rgb(206, 17, 38);
+}
+.jcicon-national-flag-EG .path4:before {
+  content: "\eaba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path5:before {
+  content: "\eabb";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path6:before {
+  content: "\eabc";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path7:before {
+  content: "\eabd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path8:before {
+  content: "\eabe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path9:before {
+  content: "\eabf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path10:before {
+  content: "\eac0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path11:before {
+  content: "\eac1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path12:before {
+  content: "\eac2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path13:before {
+  content: "\eac3";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path14:before {
+  content: "\eac4";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path15:before {
+  content: "\eac5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path16:before {
+  content: "\eac6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path17:before {
+  content: "\eac7";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path18:before {
+  content: "\eac8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-EG .path19:before {
+  content: "\eac9";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path20:before {
+  content: "\eaca";
+  margin-left: -1em;
+  color: rgb(192, 147, 0);
+}
+.jcicon-national-flag-EG .path21:before {
+  content: "\eacb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-ES .path1:before {
+  content: "\eacc";
+  color: rgb(170, 21, 27);
+}
+.jcicon-national-flag-ES .path2:before {
+  content: "\eacd";
+  margin-left: -1.5146484375em;
+  color: rgb(170, 21, 27);
+}
+.jcicon-national-flag-ES .path3:before {
+  content: "\eace";
+  margin-left: -1.5146484375em;
+  color: rgb(255, 210, 80);
+}
+.jcicon-national-flag-ES .path4:before {
+  content: "\eacf";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-ES .path5:before {
+  content: "\ead0";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path6:before {
+  content: "\ead1";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path7:before {
+  content: "\ead2";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-ES .path8:before {
+  content: "\ead3";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path9:before {
+  content: "\ead4";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-ES .path10:before {
+  content: "\ead5";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path11:before {
+  content: "\ead6";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-ES .path12:before {
+  content: "\ead7";
+  margin-left: -1.5146484375em;
+  color: rgb(255, 180, 65);
+}
+.jcicon-national-flag-ES .path13:before {
+  content: "\ead8";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path14:before {
+  content: "\ead9";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path15:before {
+  content: "\eada";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path16:before {
+  content: "\eadb";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path17:before {
+  content: "\eadc";
+  margin-left: -1.5146484375em;
+  color: rgb(80, 100, 170);
+}
+.jcicon-national-flag-ES .path18:before {
+  content: "\eadd";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path19:before {
+  content: "\eade";
+  margin-left: -1.5146484375em;
+  color: rgb(80, 100, 170);
+}
+.jcicon-national-flag-ES .path20:before {
+  content: "\eadf";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path21:before {
+  content: "\eae0";
+  margin-left: -1.5146484375em;
+  color: rgb(255, 180, 65);
+}
+.jcicon-national-flag-ES .path22:before {
+  content: "\eae1";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path23:before {
+  content: "\eae2";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path24:before {
+  content: "\eae3";
+  margin-left: -1.5146484375em;
+  color: rgb(245, 245, 245);
+}
+.jcicon-national-flag-ES .path25:before {
+  content: "\eae4";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path26:before {
+  content: "\eae5";
+  margin-left: -1.5146484375em;
+  color: rgb(255, 160, 210);
+}
+.jcicon-national-flag-ES .path27:before {
+  content: "\eae6";
+  margin-left: -1.5146484375em;
+  color: rgb(80, 100, 170);
+}
+.jcicon-national-flag-ES .path28:before {
+  content: "\eae7";
+  margin-left: -1.5146484375em;
+  color: rgb(250, 180, 70);
+}
+.jcicon-national-flag-ES .path29:before {
+  content: "\eae8";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-ES .path30:before {
+  content: "\eae9";
+  margin-left: -1.5146484375em;
+  color: rgb(255, 210, 80);
+}
+.jcicon-national-flag-ES .path31:before {
+  content: "\eaea";
+  margin-left: -1.5146484375em;
+  color: rgb(200, 65, 75);
+}
+.jcicon-national-flag-FI .path1:before {
+  content: "\eaeb";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-FI .path2:before {
+  content: "\eaec";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 53, 128);
+}
+.jcicon-national-flag-FI .path3:before {
+  content: "\eaed";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 53, 128);
+}
+.jcicon-national-flag-FR .path1:before {
+  content: "\eaee";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-FR .path2:before {
+  content: "\eaef";
+  margin-left: -1em;
+  color: rgb(0, 32, 159);
+}
+.jcicon-national-flag-FR .path3:before {
+  content: "\eaf0";
+  margin-left: -1em;
+  color: rgb(243, 40, 64);
+}
+.jcicon-national-flag-ID .path1:before {
+  content: "\eaf1";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-ID .path2:before {
+  content: "\eaf2";
+  margin-left: -1em;
+  color: rgb(0, 152, 66);
+}
+.jcicon-national-flag-ID .path3:before {
+  content: "\eaf3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-ID .path4:before {
+  content: "\eaf4";
+  margin-left: -1em;
+  color: rgb(242, 171, 72);
+}
+.jcicon-national-flag-ID .path5:before {
+  content: "\eaf5";
+  margin-left: -1em;
+  color: rgb(34, 41, 123);
+}
+.jcicon-national-flag-ID .path6:before {
+  content: "\eaf6";
+  margin-left: -1em;
+  color: rgb(34, 41, 123);
+}
+.jcicon-national-flag-ID .path7:before {
+  content: "\eaf7";
+  margin-left: -1em;
+  color: rgb(34, 41, 123);
+}
+.jcicon-national-flag-ID .path8:before {
+  content: "\eaf8";
+  margin-left: -1em;
+  color: rgb(34, 41, 123);
+}
+.jcicon-national-flag-IE .path1:before {
+  content: "\eaf9";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-IE .path2:before {
+  content: "\eafa";
+  margin-left: -1.5126953125em;
+  color: rgb(0, 159, 117);
+}
+.jcicon-national-flag-IE .path3:before {
+  content: "\eafb";
+  margin-left: -1.5126953125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IE .path4:before {
+  content: "\eafc";
+  margin-left: -1.5126953125em;
+  color: rgb(239, 154, 82);
+}
+.jcicon-national-flag-IL .path1:before {
+  content: "\eafd";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IL .path2:before {
+  content: "\eafe";
+  margin-left: -1em;
+  color: rgb(0, 0, 204);
+}
+.jcicon-national-flag-IL .path3:before {
+  content: "\eaff";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IL .path4:before {
+  content: "\eb00";
+  margin-left: -1em;
+  color: rgb(0, 0, 204);
+}
+.jcicon-national-flag-IL .path5:before {
+  content: "\eb01";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IQ .path1:before {
+  content: "\eb02";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IQ .path2:before {
+  content: "\eb03";
+  margin-left: -1.3349609375em;
+  color: rgb(206, 17, 38);
+}
+.jcicon-national-flag-IQ .path3:before {
+  content: "\eb04";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-IQ .path4:before {
+  content: "\eb05";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 122, 61);
+}
+.jcicon-national-flag-IQ .path5:before {
+  content: "\eb06";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 122, 61);
+}
+.jcicon-national-flag-IQ .path6:before {
+  content: "\eb07";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 122, 61);
+}
+.jcicon-national-flag-IR .path1:before {
+  content: "\eb08";
+  color: rgb(35, 31, 32);
+}
+.jcicon-national-flag-IR .path2:before {
+  content: "\eb09";
+  margin-left: -1.49609375em;
+  color: rgb(218, 0, 0);
+}
+.jcicon-national-flag-IR .path3:before {
+  content: "\eb0a";
+  margin-left: -1.49609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IR .path4:before {
+  content: "\eb0b";
+  margin-left: -1.49609375em;
+  color: rgb(35, 159, 64);
+}
+.jcicon-national-flag-IR .path5:before {
+  content: "\eb0c";
+  margin-left: -1.49609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IR .path6:before {
+  content: "\eb0d";
+  margin-left: -1.49609375em;
+  color: rgb(218, 0, 0);
+}
+.jcicon-national-flag-IR .path7:before {
+  content: "\eb0e";
+  margin-left: -1.49609375em;
+  color: rgb(218, 0, 0);
+}
+.jcicon-national-flag-IR .path8:before {
+  content: "\eb0f";
+  margin-left: -1.49609375em;
+  color: rgb(218, 0, 0);
+}
+.jcicon-national-flag-IT .path1:before {
+  content: "\eb10";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-IT .path2:before {
+  content: "\eb11";
+  margin-left: -1em;
+  color: rgb(0, 146, 70);
+}
+.jcicon-national-flag-IT .path3:before {
+  content: "\eb12";
+  margin-left: -1em;
+  color: rgb(206, 43, 55);
+}
+.jcicon-national-flag-JM .path1:before {
+  content: "\eb13";
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-JM .path2:before {
+  content: "\eb14";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 153, 0);
+}
+.jcicon-national-flag-JM .path3:before {
+  content: "\eb15";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 204, 0);
+}
+.jcicon-national-flag-JM .path4:before {
+  content: "\eb16";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 204, 0);
+}
+.jcicon-national-flag-JO .path1:before {
+  content: "\eb17";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-JO .path2:before {
+  content: "\eb18";
+  margin-left: -1.5048828125em;
+  color: rgb(0, 143, 81);
+}
+.jcicon-national-flag-JO .path3:before {
+  content: "\eb19";
+  margin-left: -1.5048828125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-JO .path4:before {
+  content: "\eb1a";
+  margin-left: -1.5048828125em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-JO .path5:before {
+  content: "\eb1b";
+  margin-left: -1.5048828125em;
+  color: rgb(204, 48, 60);
+}
+.jcicon-national-flag-JO .path6:before {
+  content: "\eb1c";
+  margin-left: -1.5048828125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-JP .path1:before {
+  content: "\eb1d";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-JP .path2:before {
+  content: "\eb1e";
+  margin-left: -1.5078125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-JP .path3:before {
+  content: "\eb1f";
+  margin-left: -1.5078125em;
+  color: rgb(192, 29, 60);
+}
+.jcicon-national-flag-KE .path1:before {
+  content: "\eb20";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-KE .path2:before {
+  content: "\eb21";
+  margin-left: -1.5068359375em;
+  color: rgb(0, 133, 62);
+}
+.jcicon-national-flag-KE .path3:before {
+  content: "\eb22";
+  margin-left: -1.5068359375em;
+  color: rgb(190, 23, 36);
+}
+.jcicon-national-flag-KE .path4:before {
+  content: "\eb23";
+  margin-left: -1.5068359375em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-KE .path5:before {
+  content: "\eb24";
+  margin-left: -1.5068359375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KE .path6:before {
+  content: "\eb25";
+  margin-left: -1.5068359375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KE .path7:before {
+  content: "\eb26";
+  margin-left: -1.5068359375em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-KE .path8:before {
+  content: "\eb27";
+  margin-left: -1.5068359375em;
+  color: rgb(190, 23, 36);
+}
+.jcicon-national-flag-KE .path9:before {
+  content: "\eb28";
+  margin-left: -1.5068359375em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-KE .path10:before {
+  content: "\eb29";
+  margin-left: -1.5068359375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KE .path11:before {
+  content: "\eb2a";
+  margin-left: -1.5068359375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path1:before {
+  content: "\eb2b";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-KH .path2:before {
+  content: "\eb2c";
+  margin-left: -1em;
+  color: rgb(38, 39, 138);
+}
+.jcicon-national-flag-KH .path3:before {
+  content: "\eb2d";
+  margin-left: -1em;
+  color: rgb(202, 39, 31);
+}
+.jcicon-national-flag-KH .path4:before {
+  content: "\eb2e";
+  margin-left: -1em;
+  color: rgb(38, 39, 138);
+}
+.jcicon-national-flag-KH .path5:before {
+  content: "\eb2f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path6:before {
+  content: "\eb30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path7:before {
+  content: "\eb31";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path8:before {
+  content: "\eb32";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path9:before {
+  content: "\eb33";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path10:before {
+  content: "\eb34";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path11:before {
+  content: "\eb35";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path12:before {
+  content: "\eb36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path13:before {
+  content: "\eb37";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path14:before {
+  content: "\eb38";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path15:before {
+  content: "\eb39";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path16:before {
+  content: "\eb3a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path17:before {
+  content: "\eb3b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path18:before {
+  content: "\eb3c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path19:before {
+  content: "\eb3d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path20:before {
+  content: "\eb3e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path21:before {
+  content: "\eb3f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KH .path22:before {
+  content: "\eb40";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KP .path1:before {
+  content: "\eb41";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KP .path2:before {
+  content: "\eb42";
+  margin-left: -1.5595703125em;
+  color: rgb(62, 86, 152);
+}
+.jcicon-national-flag-KP .path3:before {
+  content: "\eb43";
+  margin-left: -1.5595703125em;
+  color: rgb(198, 0, 0);
+}
+.jcicon-national-flag-KP .path4:before {
+  content: "\eb44";
+  margin-left: -1.5595703125em;
+  color: rgb(62, 86, 152);
+}
+.jcicon-national-flag-KP .path5:before {
+  content: "\eb45";
+  margin-left: -1.5595703125em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KP .path6:before {
+  content: "\eb46";
+  margin-left: -1.5595703125em;
+  color: rgb(196, 0, 0);
+}
+.jcicon-national-flag-KR .path1:before {
+  content: "\eb47";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-KR .path2:before {
+  content: "\eb48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KR .path3:before {
+  content: "\eb49";
+  margin-left: -1em;
+  color: rgb(204, 48, 60);
+}
+.jcicon-national-flag-KR .path4:before {
+  content: "\eb4a";
+  margin-left: -1em;
+  color: rgb(0, 92, 158);
+}
+.jcicon-national-flag-KR .path5:before {
+  content: "\eb4b";
+  margin-left: -1em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-KW .path1:before {
+  content: "\eb4c";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-KW .path2:before {
+  content: "\eb4d";
+  margin-left: -1.505859375em;
+  color: rgb(204, 48, 60);
+}
+.jcicon-national-flag-KW .path3:before {
+  content: "\eb4e";
+  margin-left: -1.505859375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-KW .path4:before {
+  content: "\eb4f";
+  margin-left: -1.505859375em;
+  color: rgb(0, 157, 140);
+}
+.jcicon-national-flag-KW .path5:before {
+  content: "\eb50";
+  margin-left: -1.505859375em;
+  color: rgb(35, 24, 21);
+}
+.jcicon-national-flag-LB .path1:before {
+  content: "\eb51";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-LB .path2:before {
+  content: "\eb52";
+  margin-left: -1.51171875em;
+  color: rgb(231, 96, 56);
+}
+.jcicon-national-flag-LB .path3:before {
+  content: "\eb53";
+  margin-left: -1.51171875em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-LB .path4:before {
+  content: "\eb54";
+  margin-left: -1.51171875em;
+  color: rgb(231, 96, 56);
+}
+.jcicon-national-flag-LB .path5:before {
+  content: "\eb55";
+  margin-left: -1.51171875em;
+  color: rgb(0, 154, 70);
+}
+.jcicon-national-flag-LK .path1:before {
+  content: "\eb56";
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path2:before {
+  content: "\eb57";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 91, 0);
+}
+.jcicon-national-flag-LK .path3:before {
+  content: "\eb58";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 86, 65);
+}
+.jcicon-national-flag-LK .path4:before {
+  content: "\eb59";
+  margin-left: -1.3349609375em;
+  color: rgb(141, 32, 41);
+}
+.jcicon-national-flag-LK .path5:before {
+  content: "\eb5a";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path6:before {
+  content: "\eb5b";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path7:before {
+  content: "\eb5c";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path8:before {
+  content: "\eb5d";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path9:before {
+  content: "\eb5e";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path10:before {
+  content: "\eb5f";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 183, 0);
+}
+.jcicon-national-flag-LK .path11:before {
+  content: "\eb60";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-LK .path12:before {
+  content: "\eb61";
+  margin-left: -1.3349609375em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-national-flag-LT .path1:before {
+  content: "\eb62";
+  color: rgb(0, 106, 68);
+}
+.jcicon-national-flag-LT .path2:before {
+  content: "\eb63";
+  margin-left: -1.33203125em;
+  color: rgb(193, 39, 45);
+}
+.jcicon-national-flag-LT .path3:before {
+  content: "\eb64";
+  margin-left: -1.33203125em;
+  color: rgb(253, 185, 19);
+}
+.jcicon-national-flag-LU .path1:before {
+  content: "\eb65";
+  color: rgb(0, 161, 222);
+}
+.jcicon-national-flag-LU .path2:before {
+  content: "\eb66";
+  margin-left: -1.3349609375em;
+  color: rgb(237, 41, 57);
+}
+.jcicon-national-flag-LU .path3:before {
+  content: "\eb67";
+  margin-left: -1.3349609375em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-PK .path1:before {
+  content: "\eb68";
+  color: rgb(12, 89, 11);
+}
+.jcicon-national-flag-PK .path2:before {
+  content: "\eb69";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-PK .path3:before {
+  content: "\eb6a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-PK .path4:before {
+  content: "\eb6b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path1:before {
+  content: "\eb6c";
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path2:before {
+  content: "\eb6d";
+  margin-left: -1em;
+  color: rgb(12, 64, 118);
+}
+.jcicon-national-flag-SR .path3:before {
+  content: "\eb6e";
+  margin-left: -1em;
+  color: rgb(198, 54, 60);
+}
+.jcicon-national-flag-SR .path4:before {
+  content: "\eb6f";
+  margin-left: -1em;
+  color: rgb(233, 75, 53);
+}
+.jcicon-national-flag-SR .path5:before {
+  content: "\eb70";
+  margin-left: -1em;
+  color: rgb(242, 197, 0);
+}
+.jcicon-national-flag-SR .path6:before {
+  content: "\eb71";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path7:before {
+  content: "\eb72";
+  margin-left: -1em;
+  color: rgb(233, 75, 53);
+}
+.jcicon-national-flag-SR .path8:before {
+  content: "\eb73";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path9:before {
+  content: "\eb74";
+  margin-left: -1em;
+  color: rgb(242, 197, 0);
+}
+.jcicon-national-flag-SR .path10:before {
+  content: "\eb75";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path11:before {
+  content: "\eb76";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-SR .path12:before {
+  content: "\eb77";
+  margin-left: -1em;
+  color: rgb(242, 197, 0);
+}
+.jcicon-national-flag-TH .path1:before {
+  content: "\eb78";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-TH .path2:before {
+  content: "\eb79";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-TH .path3:before {
+  content: "\eb7a";
+  margin-left: -1em;
+  color: rgb(213, 53, 44);
+}
+.jcicon-national-flag-TH .path4:before {
+  content: "\eb7b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-TH .path5:before {
+  content: "\eb7c";
+  margin-left: -1em;
+  color: rgb(0, 69, 143);
+}
+.jcicon-national-flag-UK .path1:before {
+  content: "\eb7d";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-UK .path2:before {
+  content: "\eb7e";
+  margin-left: -1em;
+  color: rgb(0, 69, 143);
+}
+.jcicon-national-flag-UK .path3:before {
+  content: "\eb7f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-UK .path4:before {
+  content: "\eb80";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-UK .path5:before {
+  content: "\eb81";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-UK .path6:before {
+  content: "\eb82";
+  margin-left: -1em;
+  color: rgb(204, 52, 64);
+}
+.jcicon-national-flag-UK .path7:before {
+  content: "\eb83";
+  margin-left: -1em;
+  color: rgb(204, 52, 64);
+}
+.jcicon-national-flag-US .path1:before {
+  content: "\eb84";
+  color: rgb(53, 54, 54);
+}
+.jcicon-national-flag-US .path2:before {
+  content: "\eb85";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-US .path3:before {
+  content: "\eb86";
+  margin-left: -1em;
+  color: rgb(194, 32, 69);
+}
+.jcicon-national-flag-US .path4:before {
+  content: "\eb87";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-US .path5:before {
+  content: "\eb88";
+  margin-left: -1em;
+  color: rgb(194, 32, 69);
+}
+.jcicon-national-flag-US .path6:before {
+  content: "\eb89";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-US .path7:before {
+  content: "\eb8a";
+  margin-left: -1em;
+  color: rgb(194, 32, 69);
+}
+.jcicon-national-flag-US .path8:before {
+  content: "\eb8b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-US .path9:before {
+  content: "\eb8c";
+  margin-left: -1em;
+  color: rgb(194, 32, 69);
+}
+.jcicon-national-flag-US .path10:before {
+  content: "\eb8d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-national-flag-US .path11:before {
+  content: "\eb8e";
+  margin-left: -1em;
+  color: rgb(0, 73, 129);
+}
+.jcicon-national-flag-US .path12:before {
+  content: "\eb8f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.jcicon-night:before {
+  content: "\eb90";
+}
+.jcicon-order:before {
+  content: "\eb91";
+}
+.jcicon-overall:before {
+  content: "\eb92";
+}
+.jcicon-paint:before {
+  content: "\eb93";
+}
+.jcicon-paixu:before {
+  content: "\eb94";
+}
+.jcicon-pdf:before {
+  content: "\eb95";
+}
+.jcicon-picture:before {
+  content: "\eb96";
+}
+.jcicon-pin:before {
+  content: "\eb97";
+}
+.jcicon-plan:before {
+  content: "\eb98";
+}
+.jcicon-power-off:before {
+  content: "\eb99";
+}
+.jcicon-powershell:before {
+  content: "\eb9a";
+}
+.jcicon-ppt:before {
+  content: "\eb9b";
+}
+.jcicon-print:before {
+  content: "\eb9c";
+}
+.jcicon-process:before {
+  content: "\eb9d";
+}
+.jcicon-PrtSc:before {
+  content: "\eb9e";
+}
+.jcicon-python:before {
+  content: "\eb9f";
+}
+.jcicon-python-color .path1:before {
+  content: "\eba0";
+  color: rgb(0, 117, 170);
+}
+.jcicon-python-color .path2:before {
+  content: "\eba1";
+  margin-left: -1em;
+  color: rgb(255, 212, 0);
+}
+.jcicon-qq:before {
+  content: "\eba2";
+}
+.jcicon-qrcode:before {
+  content: "\eba3";
+}
+.jcicon-random:before {
+  content: "\eba4";
+}
+.jcicon-react:before {
+  content: "\eba5";
+}
+.jcicon-refresh:before {
+  content: "\eba6";
+}
+.jcicon-right:before {
+  content: "\eba7";
+}
+.jcicon-right-arrow:before {
+  content: "\eba8";
+}
+.jcicon-right-bold:before {
+  content: "\eba9";
+}
+.jcicon-right-filling:before {
+  content: "\ebaa";
+}
+.jcicon-router:before {
+  content: "\ebab";
+}
+.jcicon-rust:before {
+  content: "\ebac";
+}
+.jcicon-save:before {
+  content: "\ebad";
+}
+.jcicon-scan .path1:before {
+  content: "\ebae";
+  color: rgb(255, 255, 255);
+}
+.jcicon-scan .path2:before {
+  content: "\ebaf";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.jcicon-scatter:before {
+  content: "\ebb0";
+}
+.jcicon-school:before {
+  content: "\ebb1";
+}
+.jcicon-search:before {
+  content: "\ebb2";
+}
+.jcicon-server:before {
+  content: "\ebb3";
+}
+.jcicon-server-fill:before {
+  content: "\ebb4";
+}
+.jcicon-setting:before {
+  content: "\ebb5";
+}
+.jcicon-sf:before {
+  content: "\ebb6";
+}
+.jcicon-sf-color .path1:before {
+  content: "\ebb7";
+  color: rgb(0, 0, 0);
+}
+.jcicon-sf-color .path2:before {
+  content: "\ebb8";
+  margin-left: -1em;
+  color: rgb(212, 17, 35);
+}
+.jcicon-share:before {
+  content: "\ebb9";
+}
+.jcicon-shop:before {
+  content: "\ebba";
+}
+.jcicon-shuaxin:before {
+  content: "\ebbb";
+}
+.jcicon-siemens:before {
+  content: "\ebbc";
+  color: #098f91;
+}
+.jcicon-signin:before {
+  content: "\ebbd";
+}
+.jcicon-star-empty:before {
+  content: "\ebbe";
+}
+.jcicon-star-full:before {
+  content: "\ebbf";
+}
+.jcicon-star-half:before {
+  content: "\ebc0";
+}
+.jcicon-statistics:before {
+  content: "\ebc1";
+}
+.jcicon-sun:before {
+  content: "\ebc2";
+}
+.jcicon-surveillance:before {
+  content: "\ebc3";
+}
+.jcicon-switchboard:before {
+  content: "\ebc4";
+}
+.jcicon-tailor:before {
+  content: "\ebc5";
+}
+.jcicon-test:before {
+  content: "\ec31";
+}
+.jcicon-toggle-left:before {
+  content: "\ec34";
+}
+.jcicon-toggle-right:before {
+  content: "\ec35";
+}
+.jcicon-tool:before {
+  content: "\ec36";
+}
+.jcicon-top:before {
+  content: "\ec37";
+}
+.jcicon-train:before {
+  content: "\ec58";
+}
+.jcicon-tree:before {
+  content: "\ec59";
+}
+.jcicon-ts:before {
+  content: "\ec5e";
+}
+.jcicon-txt:before {
+  content: "\ec5f";
+}
+.jcicon-ubuntu:before {
+  content: "\ec60";
+}
+.jcicon-UNEP:before {
+  content: "\ec61";
+}
+.jcicon-UNESCO:before {
+  content: "\ec7c";
+}
+.jcicon-unlock:before {
+  content: "\ec7d";
+}
+.jcicon-unverified:before {
+  content: "\ec7e";
+}
+.jcicon-up:before {
+  content: "\ec7f";
+}
+.jcicon-up-arrow:before {
+  content: "\ec80";
+}
+.jcicon-up-bold:before {
+  content: "\ec81";
+}
+.jcicon-up-filling:before {
+  content: "\ec82";
+}
+.jcicon-upload:before {
+  content: "\ec83";
+}
+.jcicon-usb:before {
+  content: "\ec84";
+}
+.jcicon-user:before {
+  content: "\ec85";
+}
+.jcicon-verified:before {
+  content: "\ec86";
+}
+.jcicon-virtual-machine:before {
+  content: "\ec87";
+}
+.jcicon-vm:before {
+  content: "\ec88";
+}
+.jcicon-vmware:before {
+  content: "\ec89";
+}
+.jcicon-vue:before {
+  content: "\ec8a";
+}
+.jcicon-vue-color .path1:before {
+  content: "\ec8b";
+  color: rgb(65, 184, 131);
+}
+.jcicon-vue-color .path2:before {
+  content: "\ec8c";
+  margin-left: -1em;
+  color: rgb(52, 73, 94);
+}
+.jcicon-wallet:before {
+  content: "\ec8d";
+}
+.jcicon-warning:before {
+  content: "\ec8e";
+}
+.jcicon-wechart:before {
+  content: "\ec8f";
+}
+.jcicon-wifi:before {
+  content: "\ec90";
+}
+.jcicon-window-close:before {
+  content: "\ec91";
+}
+.jcicon-window-maximize:before {
+  content: "\ec92";
+}
+.jcicon-window-minimize:before {
+  content: "\ec93";
+}
+.jcicon-window-restore:before {
+  content: "\ec94";
+}
+.jcicon-windows:before {
+  content: "\ec95";
+}
+.jcicon-woman:before {
+  content: "\ec96";
+}
+.jcicon-word:before {
+  content: "\ec97";
+}
+.jcicon-xinlang:before {
+  content: "\ec98";
+}
+.jcicon-zoom-in:before {
+  content: "\ec99";
+}
+.jcicon-zoom-out:before {
+  content: "\ec9a";
+}
+.jcicon-newspaper:before {
+  content: "\ec38";
+}
+.jcicon-pencil:before {
+  content: "\ebc6";
+}
+.jcicon-pencil2:before {
+  content: "\ec39";
+}
+.jcicon-quill:before {
+  content: "\ec3a";
+}
+.jcicon-pen:before {
+  content: "\ec3b";
+}
+.jcicon-blog:before {
+  content: "\ec3c";
+}
+.jcicon-eyedropper:before {
+  content: "\ebc7";
+}
+.jcicon-droplet:before {
+  content: "\ec9b";
+}
+.jcicon-paint-format:before {
+  content: "\ec2d";
+}
+.jcicon-image:before {
+  content: "\ebc8";
+}
+.jcicon-images:before {
+  content: "\ebc9";
+}
+.jcicon-camera:before {
+  content: "\ebca";
+}
+.jcicon-headphones:before {
+  content: "\ec49";
+}
+.jcicon-music:before {
+  content: "\ebcb";
+}
+.jcicon-play:before {
+  content: "\ebcc";
+}
+.jcicon-film:before {
+  content: "\ebcd";
+}
+.jcicon-pacman:before {
+  content: "\ec62";
+}
+.jcicon-spades:before {
+  content: "\ebce";
+}
+.jcicon-clubs:before {
+  content: "\ebcf";
+}
+.jcicon-diamonds:before {
+  content: "\ebd0";
+}
+.jcicon-book:before {
+  content: "\ec3d";
+}
+.jcicon-books:before {
+  content: "\ec3e";
+}
+.jcicon-library:before {
+  content: "\ec5a";
+}
+.jcicon-file-text:before {
+  content: "\ec63";
+}
+.jcicon-profile:before {
+  content: "\ec64";
+}
+.jcicon-file-empty:before {
+  content: "\ebd1";
+}
+.jcicon-files-empty:before {
+  content: "\ebd2";
+}
+.jcicon-file-text2:before {
+  content: "\ebd3";
+}
+.jcicon-file-picture:before {
+  content: "\ebd4";
+}
+.jcicon-file-music:before {
+  content: "\ebd5";
+}
+.jcicon-file-play:before {
+  content: "\ebd6";
+}
+.jcicon-file-video:before {
+  content: "\ebd7";
+}
+.jcicon-file-zip:before {
+  content: "\ebd8";
+}
+.jcicon-copy:before {
+  content: "\ebd9";
+}
+.jcicon-paste:before {
+  content: "\ebda";
+}
+.jcicon-barcode1:before {
+  content: "\ec65";
+}
+.jcicon-qrcode1:before {
+  content: "\ec66";
+}
+.jcicon-calculator:before {
+  content: "\ec3f";
+}
+.jcicon-phone:before {
+  content: "\ec40";
+}
+.jcicon-phone-hang-up:before {
+  content: "\ec41";
+}
+.jcicon-address-book:before {
+  content: "\ec5b";
+}
+.jcicon-map:before {
+  content: "\ec4b";
+}
+.jcicon-map2:before {
+  content: "\ec4c";
+}
+.jcicon-alarm:before {
+  content: "\ec4d";
+}
+.jcicon-display:before {
+  content: "\ec67";
+}
+.jcicon-laptop:before {
+  content: "\ec68";
+}
+.jcicon-mobile:before {
+  content: "\ec69";
+}
+.jcicon-mobile2:before {
+  content: "\ec6a";
+}
+.jcicon-tablet:before {
+  content: "\ec6b";
+}
+.jcicon-tv:before {
+  content: "\ec4e";
+}
+.jcicon-drawer:before {
+  content: "\ec4f";
+}
+.jcicon-drawer2:before {
+  content: "\ec50";
+}
+.jcicon-drive:before {
+  content: "\ec51";
+}
+.jcicon-undo:before {
+  content: "\ebdb";
+}
+.jcicon-redo:before {
+  content: "\ebdc";
+}
+.jcicon-undo2:before {
+  content: "\ebdd";
+}
+.jcicon-redo2:before {
+  content: "\ebde";
+}
+.jcicon-forward:before {
+  content: "\ebdf";
+}
+.jcicon-reply:before {
+  content: "\ebe0";
+}
+.jcicon-user1:before {
+  content: "\ebe1";
+}
+.jcicon-users:before {
+  content: "\ebe2";
+}
+.jcicon-quotes-left:before {
+  content: "\ebe3";
+}
+.jcicon-quotes-right:before {
+  content: "\ebe4";
+}
+.jcicon-binoculars:before {
+  content: "\ec52";
+}
+.jcicon-enlarge2:before {
+  content: "\ebe5";
+}
+.jcicon-shrink2:before {
+  content: "\ebe6";
+}
+.jcicon-key:before {
+  content: "\ebe7";
+}
+.jcicon-key2:before {
+  content: "\ebe8";
+}
+.jcicon-equalizer:before {
+  content: "\ec53";
+}
+.jcicon-equalizer2:before {
+  content: "\ec54";
+}
+.jcicon-cogs:before {
+  content: "\ebe9";
+}
+.jcicon-bug:before {
+  content: "\ec5c";
+}
+.jcicon-stats-dots:before {
+  content: "\ebea";
+}
+.jcicon-stats-bars:before {
+  content: "\ebeb";
+}
+.jcicon-stats-bars2:before {
+  content: "\ebec";
+}
+.jcicon-mug:before {
+  content: "\ec55";
+}
+.jcicon-spoon-knife:before {
+  content: "\ec56";
+}
+.jcicon-lab:before {
+  content: "\ec57";
+}
+.jcicon-airplane:before {
+  content: "\ebed";
+}
+.jcicon-list-numbered:before {
+  content: "\ebee";
+}
+.jcicon-list:before {
+  content: "\ebef";
+}
+.jcicon-list2:before {
+  content: "\ebf0";
+}
+.jcicon-tree1:before {
+  content: "\ebf1";
+}
+.jcicon-menu:before {
+  content: "\ebf2";
+}
+.jcicon-menu2:before {
+  content: "\ebf3";
+}
+.jcicon-menu3:before {
+  content: "\ebf4";
+}
+.jcicon-menu4:before {
+  content: "\ebf5";
+}
+.jcicon-flag:before {
+  content: "\ec5d";
+}
+.jcicon-bookmark:before {
+  content: "\ec6c";
+}
+.jcicon-bookmarks:before {
+  content: "\ec6d";
+}
+.jcicon-star-empty1:before {
+  content: "\ec6e";
+}
+.jcicon-star-half1:before {
+  content: "\ec6f";
+}
+.jcicon-star-full1:before {
+  content: "\ec70";
+}
+.jcicon-heart:before {
+  content: "\ec71";
+}
+.jcicon-heart-broken:before {
+  content: "\ec72";
+}
+.jcicon-man1:before {
+  content: "\ec42";
+}
+.jcicon-woman1:before {
+  content: "\ec43";
+}
+.jcicon-man-woman:before {
+  content: "\ec73";
+}
+.jcicon-point-up:before {
+  content: "\ebf6";
+}
+.jcicon-point-right:before {
+  content: "\ebf7";
+}
+.jcicon-point-down:before {
+  content: "\ebf8";
+}
+.jcicon-point-left:before {
+  content: "\ebf9";
+}
+.jcicon-plus:before {
+  content: "\ebfa";
+}
+.jcicon-minus:before {
+  content: "\ebfb";
+}
+.jcicon-checkmark:before {
+  content: "\ebfc";
+}
+.jcicon-checkmark2:before {
+  content: "\ebfd";
+}
+.jcicon-enter:before {
+  content: "\ebfe";
+}
+.jcicon-exit:before {
+  content: "\ebff";
+}
+.jcicon-play2:before {
+  content: "\ec00";
+}
+.jcicon-pause:before {
+  content: "\ec01";
+}
+.jcicon-stop:before {
+  content: "\ec02";
+}
+.jcicon-previous:before {
+  content: "\ec03";
+}
+.jcicon-next:before {
+  content: "\ec04";
+}
+.jcicon-backward:before {
+  content: "\ec05";
+}
+.jcicon-forward2:before {
+  content: "\ec06";
+}
+.jcicon-play3:before {
+  content: "\ec07";
+}
+.jcicon-pause2:before {
+  content: "\ec08";
+}
+.jcicon-stop2:before {
+  content: "\ec09";
+}
+.jcicon-backward2:before {
+  content: "\ec0a";
+}
+.jcicon-forward3:before {
+  content: "\ec0b";
+}
+.jcicon-first:before {
+  content: "\ec0c";
+}
+.jcicon-last:before {
+  content: "\ec0d";
+}
+.jcicon-previous2:before {
+  content: "\ec0e";
+}
+.jcicon-next2:before {
+  content: "\ec0f";
+}
+.jcicon-eject:before {
+  content: "\ec10";
+}
+.jcicon-volume-high:before {
+  content: "\ec11";
+}
+.jcicon-volume-medium:before {
+  content: "\ec12";
+}
+.jcicon-volume-low:before {
+  content: "\ec13";
+}
+.jcicon-volume-mute:before {
+  content: "\ec14";
+}
+.jcicon-volume-mute2:before {
+  content: "\ec15";
+}
+.jcicon-volume-increase:before {
+  content: "\ec16";
+}
+.jcicon-volume-decrease:before {
+  content: "\ec17";
+}
+.jcicon-infinite:before {
+  content: "\ec44";
+}
+.jcicon-arrow-up-left2:before {
+  content: "\ec74";
+}
+.jcicon-arrow-up2:before {
+  content: "\ec75";
+}
+.jcicon-arrow-up-right2:before {
+  content: "\ec76";
+}
+.jcicon-arrow-right2:before {
+  content: "\ec77";
+}
+.jcicon-arrow-down-right2:before {
+  content: "\ec78";
+}
+.jcicon-arrow-down2:before {
+  content: "\ec79";
+}
+.jcicon-arrow-down-left2:before {
+  content: "\ec7a";
+}
+.jcicon-arrow-left2:before {
+  content: "\ec7b";
+}
+.jcicon-sort-amount-asc:before {
+  content: "\ec18";
+}
+.jcicon-sort-amount-desc:before {
+  content: "\ec19";
+}
+.jcicon-command:before {
+  content: "\ec45";
+}
+.jcicon-text-height:before {
+  content: "\ec1a";
+}
+.jcicon-text-width:before {
+  content: "\ec1b";
+}
+.jcicon-font-size:before {
+  content: "\ec1c";
+}
+.jcicon-bold:before {
+  content: "\ec1d";
+}
+.jcicon-underline:before {
+  content: "\ec1e";
+}
+.jcicon-italic:before {
+  content: "\ec1f";
+}
+.jcicon-strikethrough:before {
+  content: "\ec20";
+}
+.jcicon-page-break:before {
+  content: "\ec21";
+}
+.jcicon-superscript:before {
+  content: "\ec22";
+}
+.jcicon-subscript:before {
+  content: "\ec23";
+}
+.jcicon-superscript2:before {
+  content: "\ec24";
+}
+.jcicon-subscript2:before {
+  content: "\ec25";
+}
+.jcicon-text-color:before {
+  content: "\ec26";
+}
+.jcicon-paragraph-left:before {
+  content: "\ec27";
+}
+.jcicon-paragraph-center:before {
+  content: "\ec28";
+}
+.jcicon-paragraph-right:before {
+  content: "\ec29";
+}
+.jcicon-paragraph-justify:before {
+  content: "\ec2a";
+}
+.jcicon-renren:before {
+  content: "\ec2b";
+}
+.jcicon-sina-weibo:before {
+  content: "\ec46";
+}
+.jcicon-youtube:before {
+  content: "\ec2c";
+}
+.jcicon-github:before {
+  content: "\eab0";
+}
+.jcicon-appleinc:before {
+  content: "\ec2e";
+}
+.jcicon-finder:before {
+  content: "\ec47";
+}
+.jcicon-android:before {
+  content: "\ec2f";
+}
+.jcicon-linkedin:before {
+  content: "\ec30";
+}
+.jcicon-chrome1:before {
+  content: "\ec48";
+}
+.jcicon-IE:before {
+  content: "\ec4a";
+}
+.jcicon-safari:before {
+  content: "\ec32";
+}
+.jcicon-opera:before {
+  content: "\ec33";
+}

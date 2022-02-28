@@ -1,0 +1,52 @@
+{
+  "name": "jcadmin",
+  "version": "0.0.3",
+  "author": {
+    "name": "jcLee95",
+    "email": "291148484@163.com",
+    "url": "http://thispage.tech"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.13",
+    "@vueuse/components": "^7.6.2",
+    "@vueuse/core": "^7.6.2",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "pinia": "^2.0.11",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.0-0",
+    "vue-cropper": "^0.5.8",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vue-tsc": "^0.29.8",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  },
+  "keywords": [
+    "vue",
+    "router",
+    "vite",
+    "jcadmin",
+    "jcframe",
+    "jcstdio"
+  ],
+  "license": "MIT",
+  "homepage": "http://jcadmin.thispage.tech/jcadmin"
+}
